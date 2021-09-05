@@ -1,5 +1,24 @@
 # TMUX shortcuts
 
+## Session control
+  - Start session
+    ```sh
+      tmux
+    ```
+    ```sh
+      tmux new -session_name
+      tmux new-session -session_name
+    ```
+  - Exit session
+    ```sh
+       exit
+    ```
+  - Reset tmux
+    ```sh
+     tmux kill-server
+    ```
+
+
 ## prefix = ctrl + b
 
 ## Splitting
